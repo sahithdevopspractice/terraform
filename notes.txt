@@ -9,3 +9,6 @@ Cost Optimisation:- So with terraform it is easy to create resources and stop or
 Automatic dependency Managment:- For example if I want to create a rote 53 instance, EC2 instance needs to up and running, so that EC2 ip address are needs to configure in route 53. So here rote 53 is depending on EC2 servers. We can crearte resources, terraform will take care of dependency managment.
 
 Terraform Modules:- You can create terraform code as modules, other projects can use it, without writing from the scratch,  Once if you write the code, then it can be reusable, it means if another project wants to use the code they can use it. 
+
+What is Terraform:- Terraform is declarative way of creating infrastructure, here declarative means terraform will create the infrastructure as you declared with proper syntax.
+What is the adavantage of declarative:- Easy syntax and no need to follow sequence,
